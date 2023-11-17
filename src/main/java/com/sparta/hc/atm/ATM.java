@@ -26,8 +26,9 @@ public class ATM {
         return note50;
     }
 
-    public void setNote50(int note50){
+    public int setNote50(int note50){
         this.note50 = note50;
+        return note50;
     }
 
     public static int getNote20() {
